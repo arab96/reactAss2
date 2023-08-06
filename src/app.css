@@ -1,0 +1,50 @@
+:root{
+    --primary-color:#008080;
+    --body-bg-color:#ede5e5;
+    --padding: 20px;
+    --text-color: #fff;
+    --border-radius:5px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: var(--body-bg-color);
+}
+.app{
+    min-height: 80vh;
+    padding: var(--padding);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+form input{
+   border: none;
+   font-size: 16px;
+   font-weight: 500px;
+   border-radius: var(--border-radius);
+   padding: calc(var(--padding)/2);
+   outline: none;
+   width: 100%;
+   margin: 5px;
+}
+form button{
+    border: none;
+    font-size: 16px;
+    font-weight: 500px;
+    border-radius: var(--border-radius);
+    padding: calc(var(--padding)/2);
+    outline: none;
+    width: 100%;
+    margin: 5px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+.result{
+    padding: 5px 10px;
+    font-size: 22px;
+}
+
